@@ -141,9 +141,5 @@ datos = np.zeros((10,2))
 datos[:,0] = T
 datos[:,1] = calor_especifico
 
-#Con Joel
-np.savetxt('/home/cphys-ana.sanchezgonzalez/COMPU2024/cN_N32.txt', datos)
-
-#Con el PC
-#np.savetxt('C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/cN_N16.txt', datos)
+np.savetxt('cN_N16.txt', datos)
 
