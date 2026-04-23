@@ -12,7 +12,7 @@ def leer_matriz_desde_txt(ruta_archivo):
 
 
 #Leo la matriz desde el archivo de texto
-ruta_archivo = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/matriz_N64_T4_noNul.txt'
+ruta_archivo = 'matriz_N64_T4_noNul.txt'
 matriz = leer_matriz_desde_txt(ruta_archivo)
 
 
