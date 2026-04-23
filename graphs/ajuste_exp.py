@@ -9,7 +9,7 @@ def exp(x, a, b):
 
 
 #Leo los fatos del fichero de texto
-file_in = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/cN_N128.txt'
+file_in = 'cN_N128.txt'
 datos = np.loadtxt(file_in)
 T = datos[:, 0]
 cN = datos[:, 1]
